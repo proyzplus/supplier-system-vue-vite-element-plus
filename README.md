@@ -1,22 +1,14 @@
-# element-plus-vite-starter
+<!--
+ * @Author: proyzplus
+ * @Date: 2021-06-08 16:31:54
+ * @LastEditors: proyzplus
+ * @LastEditTime: 2021-06-09 10:13:06
+ * @Description: Description
+-->
 
-> A starter kit for Element Plus with Vite
+# looovo-supplier-system
 
-<img width="800" alt="Element Plus" src="https://user-images.githubusercontent.com/10731096/97282764-0726eb80-187a-11eb-9658-6dc98ccb8f8d.png">
+serve_dev: 开发环境
+serve_pro: 生产环境
 
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run dev
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-# supplier-sysytem-vue-vite-element-plus
+vue3 + vite + element-plus

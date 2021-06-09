@@ -1,0 +1,28 @@
+{
+  "name": "looovo-provider-sysytem",
+  "version": "0.0.1",
+  "scripts": {
+    "serve_dev": "vite --mode development --open --host",
+    "serve_pro": "vite --mode production --open --host",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "latest",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "localforage": "^1.9.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.0-beta.12"
+  }
+}

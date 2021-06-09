@@ -1,0 +1,59 @@
+//@design-width: 320; //设计稿尺寸
+//@computeSize: 1000vw/@design-width; //rem+vw布局方案
+html {
+  //font-size: @computeSize;
+  font-size: small;
+}
+
+//@media screen and (min-width: 720px) {
+//  html {
+//    font-size: @computeSize/4;
+//  }
+//}
+
+// body {
+//   position: relative;
+//   font-size: 1.2rem;
+// }
+
+img {
+  display: block;
+  vertical-align: middle;
+  height: 100%;
+  margin: 0 auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea,
+ul,
+p {
+  outline: none;
+  border: none;
+  line-height: unset;
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+// #app {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+// }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
