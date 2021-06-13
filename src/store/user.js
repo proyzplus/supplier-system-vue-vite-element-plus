@@ -14,7 +14,7 @@ export default {
   },
   actions: {
     async updateUserInfo(ctx, val) {
-      ctx.commit('setLoading', true);
+      // ctx.commit('setLoading', true);
       ctx.commit('setUserInfo', val);
     }
   }

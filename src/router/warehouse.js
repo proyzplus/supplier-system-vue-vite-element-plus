@@ -10,7 +10,8 @@ export default [
     path: "/warehouse",
     name: "warehouse",
     meta: {
-      title: "仓储管理"
+      title: "仓储管理",
+      num: 0
     },
     redirect: {
       name: "homePage",

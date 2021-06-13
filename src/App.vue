@@ -29,7 +29,7 @@
 </template>
 
 <script> 
-import { reactive, toRefs, getCurrentInstance, watchEffect } from 'vue'
+import { reactive, toRefs, getCurrentInstance } from 'vue'
 import navigation from './layout/navigation.vue';
 import topHeader from './layout/topHeader.vue';
 import { useRouter } from 'vue-router';
@@ -46,8 +46,6 @@ export default {
       route_exclude: [undefined, "login", "notFound"]
     })
     if (pathname == "/") {
-      judgeUserLogin()
-    } else {
       judgeUserLogin()
     }
     function judgeUserLogin() {

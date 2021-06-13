@@ -103,7 +103,7 @@ export default {
     const { proxy } = getCurrentInstance()
     const page_data = reactive({
       formData: {
-        name: "haoduo@xinyuka",
+        name: "alibb@xinyuka",
         password: "123456"
       },
       down: false,

@@ -10,7 +10,8 @@ export default [
     path: "/commod",
     name: "commod",
     meta: {
-      title: "商品管理"
+      title: "商品管理",
+      num: 1
     },
     redirect: {
       name: "commodityManager",

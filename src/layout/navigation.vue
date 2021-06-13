@@ -15,11 +15,16 @@
 </template>
 
 <script>
-import { reactive, toRefs } from 'vue';
-import { useRouter } from 'vue-router'
+import { onMounted, reactive, toRefs } from 'vue';
+import { useRoute, useRouter } from 'vue-router'
 export default {
   setup() {
     const router = useRouter();
+    const route = useRoute();
+    onMounted(() => {
+      // console.log(route.matched[0])
+      // page_data.selectIndex = 
+    })
     const page_data = reactive({
       scrollbarList: [{
         id: 1,
@@ -42,7 +47,7 @@ export default {
         scrollWord: "财务管理",
         routerPath: "/finance/supplierReconciliation",
       }],
-      selectIndex: 0,
+      selectIndex: route.matched[0].meta.num
     })
     const scrollTab = (val, index) => {
       page_data.selectIndex = index
@@ -56,11 +61,9 @@ export default {
 <style lang="less" scoped>
 .topListTab {
   width: 160px;
-  // height: calc(100vh - 100px);
   height: 90%;
   min-height: 380px;
   overflow: auto;
-  // padding-right: 28px;
 }
 .lastLabel {
   width: 160px;

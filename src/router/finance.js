@@ -10,7 +10,8 @@ export default [
     path: "/finance",
     name: "finance",
     meta: {
-      title: "财务管理"
+      title: "财务管理",
+      num: 2
     },
     redirect: {
       name: "supplierReconciliation",
